@@ -1,0 +1,122 @@
+/* stylesheet.css */
+/* Lex van Os */
+
+header { background-color: rgb(255, 17, 71);
+		padding: 20px;
+		border: 10px solid black;
+		margin-bottom: 15px;
+		width: 600px;
+		
+}
+
+main 	{ background-color: rgba(255, 99, 71, 1);
+		padding: 1px;
+		border: 5px solid black;
+		width: 900px;
+}
+
+article	{ background-color: rgb(255, 126, 74);
+		padding: 1px;
+		margin-bottom: 15px;
+		border: 5px solid black;
+		width: 900px;
+		
+	
+}
+
+body	{ background-color: rgb(255, 228, 206);
+			
+}
+
+div		{ margin-bottom: 80px;
+			margin-top: 10px;
+			
+	
+}
+
+a		{ text-color: blue;
+	
+}
+
+aside	{ background-color: rgb(255, 123, 119);
+		position: absolute;
+				top: 800px;
+		right: 20px;
+		width: 12%;
+		height: 1100px;
+		display: inline-block;
+		padding: 25px;
+		border: 10px solid black;
+
+	
+}
+
+section	{ background-color: rgb(255, 123, 119);
+		position: absolute;
+		right: 1250px;
+		top: 800px;
+		height: 500px;
+		width: 12%;
+		display: inline-block;
+		padding: 25px;
+		border: 10px solid black;
+	
+}
+
+
+.row{
+	display: flex;
+	Justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.column{
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+	flex: 25%;
+	max-width: 40%;
+}
+
+.column img{
+	margin-top: 20px;
+}
+
+.flex-images{
+	background-color: rgba(255, 99, 71, 1);
+	padding: 1px;
+	border: 5px solid black;
+	width: 1000px;
+
+}
+
+footer {
+	display: inline-block;
+	background-color: rgba(255, 123, 119, 0.2);
+	margin-top: 10px;
+	width: 800px;
+    height: 200px;
+	border: 10px solid black;
+
+}
+
+.rowlist {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.columnlist {
+    flex: 15%;
+    margin-right: 15px;
+
+}
+
+.container  {
+    display: flex;
+    flex-direction: column;
+	white-space: pre;
+}
+
